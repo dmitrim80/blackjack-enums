@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB44A6DC2A3E0C7A004F32C9 /* blackjack_enumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6DB2A3E0C7A004F32C9 /* blackjack_enumsApp.swift */; };
+		BB44A6DE2A3E0C7A004F32C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */; };
+		BB44A6E02A3E0C7E004F32C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44A6DF2A3E0C7E004F32C9 /* Assets.xcassets */; };
+		BB44A6E32A3E0C7E004F32C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44A6E22A3E0C7E004F32C9 /* Preview Assets.xcassets */; };
+		BB44A6ED2A3E0C7F004F32C9 /* blackjack_enumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6EC2A3E0C7F004F32C9 /* blackjack_enumsTests.swift */; };
+		BB44A6F72A3E0C7F004F32C9 /* blackjack_enumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6F62A3E0C7F004F32C9 /* blackjack_enumsUITests.swift */; };
+		BB44A6F92A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6F82A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB44A6E92A3E0C7F004F32C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB44A6D02A3E0C7A004F32C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB44A6D72A3E0C7A004F32C9;
+			remoteInfo = "blackjack-enums";
+		};
+		BB44A6F32A3E0C7F004F32C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB44A6D02A3E0C7A004F32C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB44A6D72A3E0C7A004F32C9;
+			remoteInfo = "blackjack-enums";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB44A6D82A3E0C7A004F32C9 /* blackjack-enums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blackjack-enums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44A6DB2A3E0C7A004F32C9 /* blackjack_enumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsApp.swift; sourceTree = "<group>"; };
+		BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB44A6DF2A3E0C7E004F32C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB44A6E22A3E0C7E004F32C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB44A6E82A3E0C7F004F32C9 /* blackjack-enumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blackjack-enumsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44A6EC2A3E0C7F004F32C9 /* blackjack_enumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsTests.swift; sourceTree = "<group>"; };
+		BB44A6F22A3E0C7F004F32C9 /* blackjack-enumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blackjack-enumsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB44A6F62A3E0C7F004F32C9 /* blackjack_enumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsUITests.swift; sourceTree = "<group>"; };
+		BB44A6F82A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB44A6D52A3E0C7A004F32C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A6E52A3E0C7F004F32C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A6EF2A3E0C7F004F32C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB44A6CF2A3E0C7A004F32C9 = {
+			isa = PBXGroup;
+			children = (
+				BB44A6DA2A3E0C7A004F32C9 /* blackjack-enums */,
+				BB44A6EB2A3E0C7F004F32C9 /* blackjack-enumsTests */,
+				BB44A6F52A3E0C7F004F32C9 /* blackjack-enumsUITests */,
+				BB44A6D92A3E0C7A004F32C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB44A6D92A3E0C7A004F32C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A6D82A3E0C7A004F32C9 /* blackjack-enums.app */,
+				BB44A6E82A3E0C7F004F32C9 /* blackjack-enumsTests.xctest */,
+				BB44A6F22A3E0C7F004F32C9 /* blackjack-enumsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB44A6DA2A3E0C7A004F32C9 /* blackjack-enums */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A6DB2A3E0C7A004F32C9 /* blackjack_enumsApp.swift */,
+				BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */,
+				BB44A6DF2A3E0C7E004F32C9 /* Assets.xcassets */,
+				BB44A6E12A3E0C7E004F32C9 /* Preview Content */,
+			);
+			path = "blackjack-enums";
+			sourceTree = "<group>";
+		};
+		BB44A6E12A3E0C7E004F32C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A6E22A3E0C7E004F32C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB44A6EB2A3E0C7F004F32C9 /* blackjack-enumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A6EC2A3E0C7F004F32C9 /* blackjack_enumsTests.swift */,
+			);
+			path = "blackjack-enumsTests";
+			sourceTree = "<group>";
+		};
+		BB44A6F52A3E0C7F004F32C9 /* blackjack-enumsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A6F62A3E0C7F004F32C9 /* blackjack_enumsUITests.swift */,
+				BB44A6F82A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift */,
+			);
+			path = "blackjack-enumsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB44A6D72A3E0C7A004F32C9 /* blackjack-enums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB44A6FC2A3E0C7F004F32C9 /* Build configuration list for PBXNativeTarget "blackjack-enums" */;
+			buildPhases = (
+				BB44A6D42A3E0C7A004F32C9 /* Sources */,
+				BB44A6D52A3E0C7A004F32C9 /* Frameworks */,
+				BB44A6D62A3E0C7A004F32C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blackjack-enums";
+			productName = "blackjack-enums";
+			productReference = BB44A6D82A3E0C7A004F32C9 /* blackjack-enums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB44A6E72A3E0C7F004F32C9 /* blackjack-enumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB44A6FF2A3E0C7F004F32C9 /* Build configuration list for PBXNativeTarget "blackjack-enumsTests" */;
+			buildPhases = (
+				BB44A6E42A3E0C7F004F32C9 /* Sources */,
+				BB44A6E52A3E0C7F004F32C9 /* Frameworks */,
+				BB44A6E62A3E0C7F004F32C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB44A6EA2A3E0C7F004F32C9 /* PBXTargetDependency */,
+			);
+			name = "blackjack-enumsTests";
+			productName = "blackjack-enumsTests";
+			productReference = BB44A6E82A3E0C7F004F32C9 /* blackjack-enumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB44A6F12A3E0C7F004F32C9 /* blackjack-enumsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB44A7022A3E0C7F004F32C9 /* Build configuration list for PBXNativeTarget "blackjack-enumsUITests" */;
+			buildPhases = (
+				BB44A6EE2A3E0C7F004F32C9 /* Sources */,
+				BB44A6EF2A3E0C7F004F32C9 /* Frameworks */,
+				BB44A6F02A3E0C7F004F32C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB44A6F42A3E0C7F004F32C9 /* PBXTargetDependency */,
+			);
+			name = "blackjack-enumsUITests";
+			productName = "blackjack-enumsUITests";
+			productReference = BB44A6F22A3E0C7F004F32C9 /* blackjack-enumsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB44A6D02A3E0C7A004F32C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BB44A6D72A3E0C7A004F32C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BB44A6E72A3E0C7F004F32C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB44A6D72A3E0C7A004F32C9;
+					};
+					BB44A6F12A3E0C7F004F32C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB44A6D72A3E0C7A004F32C9;
+					};
+				};
+			};
+			buildConfigurationList = BB44A6D32A3E0C7A004F32C9 /* Build configuration list for PBXProject "blackjack-enums" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB44A6CF2A3E0C7A004F32C9;
+			productRefGroup = BB44A6D92A3E0C7A004F32C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB44A6D72A3E0C7A004F32C9 /* blackjack-enums */,
+				BB44A6E72A3E0C7F004F32C9 /* blackjack-enumsTests */,
+				BB44A6F12A3E0C7F004F32C9 /* blackjack-enumsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB44A6D62A3E0C7A004F32C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A6E32A3E0C7E004F32C9 /* Preview Assets.xcassets in Resources */,
+				BB44A6E02A3E0C7E004F32C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A6E62A3E0C7F004F32C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A6F02A3E0C7F004F32C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB44A6D42A3E0C7A004F32C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A6DE2A3E0C7A004F32C9 /* ContentView.swift in Sources */,
+				BB44A6DC2A3E0C7A004F32C9 /* blackjack_enumsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A6E42A3E0C7F004F32C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A6ED2A3E0C7F004F32C9 /* blackjack_enumsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB44A6EE2A3E0C7F004F32C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44A6F92A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift in Sources */,
+				BB44A6F72A3E0C7F004F32C9 /* blackjack_enumsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB44A6EA2A3E0C7F004F32C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB44A6D72A3E0C7A004F32C9 /* blackjack-enums */;
+			targetProxy = BB44A6E92A3E0C7F004F32C9 /* PBXContainerItemProxy */;
+		};
+		BB44A6F42A3E0C7F004F32C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB44A6D72A3E0C7A004F32C9 /* blackjack-enums */;
+			targetProxy = BB44A6F32A3E0C7F004F32C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB44A6FA2A3E0C7F004F32C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB44A6FB2A3E0C7F004F32C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB44A6FD2A3E0C7F004F32C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blackjack-enums/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitri.blackjack-enums";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB44A6FE2A3E0C7F004F32C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blackjack-enums/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitri.blackjack-enums";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB44A7002A3E0C7F004F32C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitri.blackjack-enumsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blackjack-enums.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blackjack-enums";
+			};
+			name = Debug;
+		};
+		BB44A7012A3E0C7F004F32C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitri.blackjack-enumsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blackjack-enums.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blackjack-enums";
+			};
+			name = Release;
+		};
+		BB44A7032A3E0C7F004F32C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitri.blackjack-enumsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "blackjack-enums";
+			};
+			name = Debug;
+		};
+		BB44A7042A3E0C7F004F32C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitri.blackjack-enumsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "blackjack-enums";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB44A6D32A3E0C7A004F32C9 /* Build configuration list for PBXProject "blackjack-enums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A6FA2A3E0C7F004F32C9 /* Debug */,
+				BB44A6FB2A3E0C7F004F32C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB44A6FC2A3E0C7F004F32C9 /* Build configuration list for PBXNativeTarget "blackjack-enums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A6FD2A3E0C7F004F32C9 /* Debug */,
+				BB44A6FE2A3E0C7F004F32C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB44A6FF2A3E0C7F004F32C9 /* Build configuration list for PBXNativeTarget "blackjack-enumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A7002A3E0C7F004F32C9 /* Debug */,
+				BB44A7012A3E0C7F004F32C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB44A7022A3E0C7F004F32C9 /* Build configuration list for PBXNativeTarget "blackjack-enumsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB44A7032A3E0C7F004F32C9 /* Debug */,
+				BB44A7042A3E0C7F004F32C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB44A6D02A3E0C7A004F32C9 /* Project object */;
+}
