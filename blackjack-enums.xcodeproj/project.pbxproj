@@ -14,6 +14,10 @@
 		BB44A6ED2A3E0C7F004F32C9 /* blackjack_enumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6EC2A3E0C7F004F32C9 /* blackjack_enumsTests.swift */; };
 		BB44A6F72A3E0C7F004F32C9 /* blackjack_enumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6F62A3E0C7F004F32C9 /* blackjack_enumsUITests.swift */; };
 		BB44A6F92A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6F82A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift */; };
+		BB7C746F2A3E8DE3005A5ECB /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C746E2A3E8DE3005A5ECB /* CardModel.swift */; };
+		BB7C74762A422BA4005A5ECB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C74752A422BA4005A5ECB /* RoundButton.swift */; };
+		BB7C74782A433C5B005A5ECB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C74772A433C5B005A5ECB /* CardView.swift */; };
+		BBC514E52A472ED2003942FD /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC514E42A472ED2003942FD /* CardsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BB44A6F22A3E0C7F004F32C9 /* blackjack-enumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blackjack-enumsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB44A6F62A3E0C7F004F32C9 /* blackjack_enumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsUITests.swift; sourceTree = "<group>"; };
 		BB44A6F82A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB7C746E2A3E8DE3005A5ECB /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		BB7C74752A422BA4005A5ECB /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		BB7C74772A433C5B005A5ECB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BBC514E42A472ED2003942FD /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				BB44A6DB2A3E0C7A004F32C9 /* blackjack_enumsApp.swift */,
-				BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */,
+				BB7C74722A422B65005A5ECB /* Components */,
+				BB7C746C2A3E8172005A5ECB /* Extensions */,
+				BB7C746A2A3E813A005A5ECB /* Model */,
+				BB7C746D2A3E8195005A5ECB /* ModelView */,
+				BB7C746B2A3E815D005A5ECB /* View */,
 				BB44A6DF2A3E0C7E004F32C9 /* Assets.xcassets */,
 				BB44A6E12A3E0C7E004F32C9 /* Preview Content */,
 			);
@@ -125,6 +137,46 @@
 				BB44A6F82A3E0C7F004F32C9 /* blackjack_enumsUITestsLaunchTests.swift */,
 			);
 			path = "blackjack-enumsUITests";
+			sourceTree = "<group>";
+		};
+		BB7C746A2A3E813A005A5ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB7C746E2A3E8DE3005A5ECB /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7C746B2A3E815D005A5ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */,
+				BB7C74772A433C5B005A5ECB /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7C746C2A3E8172005A5ECB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB7C746D2A3E8195005A5ECB /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				BBC514E42A472ED2003942FD /* CardsViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		BB7C74722A422B65005A5ECB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BB7C74752A422BA4005A5ECB /* RoundButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7C74762A422BA4005A5ECB /* RoundButton.swift in Sources */,
 				BB44A6DE2A3E0C7A004F32C9 /* ContentView.swift in Sources */,
+				BBC514E52A472ED2003942FD /* CardsViewModel.swift in Sources */,
+				BB7C746F2A3E8DE3005A5ECB /* CardModel.swift in Sources */,
 				BB44A6DC2A3E0C7A004F32C9 /* blackjack_enumsApp.swift in Sources */,
+				BB7C74782A433C5B005A5ECB /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
