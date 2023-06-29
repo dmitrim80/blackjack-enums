@@ -28,7 +28,7 @@ struct RoundButton: View {
                     x: 0,
                     y: 0)
                 .padding()
-            Text("GO!")
+            Text("NEW GAME")
                 .bold()
                 .foregroundColor(.black)
                 

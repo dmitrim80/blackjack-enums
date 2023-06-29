@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB44A6DC2A3E0C7A004F32C9 /* blackjack_enumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6DB2A3E0C7A004F32C9 /* blackjack_enumsApp.swift */; };
-		BB44A6DE2A3E0C7A004F32C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */; };
+		BB44A6DE2A3E0C7A004F32C9 /* BlackJackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6DD2A3E0C7A004F32C9 /* BlackJackView.swift */; };
 		BB44A6E02A3E0C7E004F32C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44A6DF2A3E0C7E004F32C9 /* Assets.xcassets */; };
 		BB44A6E32A3E0C7E004F32C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44A6E22A3E0C7E004F32C9 /* Preview Assets.xcassets */; };
 		BB44A6ED2A3E0C7F004F32C9 /* blackjack_enumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB44A6EC2A3E0C7F004F32C9 /* blackjack_enumsTests.swift */; };
@@ -17,7 +17,9 @@
 		BB7C746F2A3E8DE3005A5ECB /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C746E2A3E8DE3005A5ECB /* CardModel.swift */; };
 		BB7C74762A422BA4005A5ECB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C74752A422BA4005A5ECB /* RoundButton.swift */; };
 		BB7C74782A433C5B005A5ECB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C74772A433C5B005A5ECB /* CardView.swift */; };
-		BBC514E52A472ED2003942FD /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC514E42A472ED2003942FD /* CardsViewModel.swift */; };
+		BBC514E52A472ED2003942FD /* BlackJackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC514E42A472ED2003942FD /* BlackJackViewModel.swift */; };
+		BBC514E72A4746FB003942FD /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC514E62A4746FB003942FD /* CircleButton.swift */; };
+		BBD02D402A4B4AE3003BB5E5 /* PlaceYourBet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD02D3F2A4B4AE3003BB5E5 /* PlaceYourBet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 /* Begin PBXFileReference section */
 		BB44A6D82A3E0C7A004F32C9 /* blackjack-enums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blackjack-enums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB44A6DB2A3E0C7A004F32C9 /* blackjack_enumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackjack_enumsApp.swift; sourceTree = "<group>"; };
-		BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB44A6DD2A3E0C7A004F32C9 /* BlackJackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackView.swift; sourceTree = "<group>"; };
 		BB44A6DF2A3E0C7E004F32C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB44A6E22A3E0C7E004F32C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB44A6E82A3E0C7F004F32C9 /* blackjack-enumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blackjack-enumsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +53,9 @@
 		BB7C746E2A3E8DE3005A5ECB /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		BB7C74752A422BA4005A5ECB /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		BB7C74772A433C5B005A5ECB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		BBC514E42A472ED2003942FD /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		BBC514E42A472ED2003942FD /* BlackJackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewModel.swift; sourceTree = "<group>"; };
+		BBC514E62A4746FB003942FD /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		BBD02D3F2A4B4AE3003BB5E5 /* PlaceYourBet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceYourBet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +154,9 @@
 		BB7C746B2A3E815D005A5ECB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BB44A6DD2A3E0C7A004F32C9 /* ContentView.swift */,
+				BB44A6DD2A3E0C7A004F32C9 /* BlackJackView.swift */,
 				BB7C74772A433C5B005A5ECB /* CardView.swift */,
+				BBD02D3F2A4B4AE3003BB5E5 /* PlaceYourBet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,7 +171,7 @@
 		BB7C746D2A3E8195005A5ECB /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
-				BBC514E42A472ED2003942FD /* CardsViewModel.swift */,
+				BBC514E42A472ED2003942FD /* BlackJackViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				BB7C74752A422BA4005A5ECB /* RoundButton.swift */,
+				BBC514E62A4746FB003942FD /* CircleButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -309,9 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC514E72A4746FB003942FD /* CircleButton.swift in Sources */,
 				BB7C74762A422BA4005A5ECB /* RoundButton.swift in Sources */,
-				BB44A6DE2A3E0C7A004F32C9 /* ContentView.swift in Sources */,
-				BBC514E52A472ED2003942FD /* CardsViewModel.swift in Sources */,
+				BB44A6DE2A3E0C7A004F32C9 /* BlackJackView.swift in Sources */,
+				BBC514E52A472ED2003942FD /* BlackJackViewModel.swift in Sources */,
+				BBD02D402A4B4AE3003BB5E5 /* PlaceYourBet.swift in Sources */,
 				BB7C746F2A3E8DE3005A5ECB /* CardModel.swift in Sources */,
 				BB44A6DC2A3E0C7A004F32C9 /* blackjack_enumsApp.swift in Sources */,
 				BB7C74782A433C5B005A5ECB /* CardView.swift in Sources */,

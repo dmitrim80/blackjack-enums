@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct blackjack_enumsApp: App {
+    
+    @StateObject var blackJackViewModel: BlackJackViewModel = BlackJackViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BlackJackView()
+                .environmentObject(blackJackViewModel)
         }
     }
 }
